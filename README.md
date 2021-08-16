@@ -17,3 +17,8 @@ To install the dependencies run `npm install` inside the project directory.
 The app needs the `ABLY_API_KEY` environment variable to be set to run. For convenience you can use place a `.env` file in the root of this project with `ABLY_API_KEY=yourkey`.
 
 To install the app to your global `PATH` run `npm link` inside the project and then you can run the app with the `ably-cli` command. You can change the name of the command in the `bin` section of `package.json` if you want it to be called something else. If you are using a version manager such as `asdf` you may also need to reshim for this to work.
+
+
+<!-- For a complete walkthrough, read the [two-part blog post of how to connect to the Ably backend directly (bypassing Ably SDKs altogether)](https://ably.com/blog).-->
+
+
